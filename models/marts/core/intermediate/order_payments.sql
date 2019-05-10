@@ -2,7 +2,7 @@
 
 with payments as (
 
-    select * from {{ ref('stg_payments') }}
+    select * from {{ ref('stg_jaffle_shop__payments') }}
 
 ),
 
